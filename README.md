@@ -137,17 +137,6 @@ cd Malper-Analyse-Tool
 chmod +x build.sh && ./build.sh
 sudo dpkg -i dist/malper-analyse_*.deb
 ```
-
------
-
-## 🗺️ Watchdog Integration
-
-`malper-analyse` pairs naturally with the [Watchdog](https://github.com/MKMithun2806) recon pipeline — drop it at the end of your n8n flow to auto-analyse whatever Nmap/Nuclei/searchsploit pushes to NAS:
-
-```
-Flipper Zero → ESP32 → n8n webhook → EC2 recon → NAS → malper-analyse → Obsidian vault
-```
-
 -----
 
 ## 📝 License
