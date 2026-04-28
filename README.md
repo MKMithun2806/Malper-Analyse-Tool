@@ -139,6 +139,11 @@ sudo dpkg -i dist/malper-analyse_*.deb
 ```
 -----
 
+> *Notes:**  
+> I made this completely for fun, I was bored dont blame me if the repo looks unpolished
+
+-----
+
 ## 📝 License
 
 MIT — do whatever, don’t blame me.
